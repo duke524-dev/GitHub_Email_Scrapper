@@ -1,0 +1,11 @@
+# Second-pass search bank: broad US + high-density tech metros
+location:"United States" "software engineer" type:user
+location:"United States" backend type:user
+location:"United States" devops type:user
+location:"United States" "data engineer" type:user
+location:"California" developer type:user
+location:"Texas" engineer type:user
+location:"New York" developer type:user
+location:"Washington" engineer type:user
+location:"Remote" "United States" developer type:user
+location:"USA" "software engineer" type:user

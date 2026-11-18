@@ -1,0 +1,76 @@
+  query 1/10: +100 (total 100) :: location:"United States" "software engineer" type:user
+  query 2/10: +99 (total 199) :: location:"United States" backend type:user
+  query 3/10: +96 (total 295) :: location:"United States" devops type:user
+  query 4/10: +99 (total 394) :: location:"United States" "data engineer" type:user
+discovered 100 candidate logins
+candidates: 100 | already processed: 63 | pending: 37
+  [4/37] pleaselaughthxbyee@gmail.com               us     role=5   personal
+  [4/37] pleaselaughthxbyee@gmail.com               us     role=5   personal
+  [4/37] pleaselaughthxbyee@gmail.com               us     role=5   personal
+  [6/37] ducppmaster@gmail.com                      us     role=4   personal
+  [6/37] ducppmaster@gmail.com                      us     role=4   personal
+  [10/37] uddin.md.minhaj2001@gmail.com              us     role=9   personal
+  [12/37] sampathkumarkolichalam@gmail.com           us     role=6   personal
+  [13/37] lachhabayoub@gmail.com                     us     role=11  personal
+  [15/37] adityadhiman.in@gmail.com                  us     role=8   personal
+  [17/37] lambda.xymox@gmail.com                     us     role=4   personal
+  [17/37] lambda.xymox@gmail.com                     us     role=4   personal
+  [17/37] lambda.xymox@gmail.com                     us     role=4   personal
+  [23/37] tianxuan.sun@duke.edu                      us     role=4   education
+  [23/37] ts402@duke.edu                             us     role=4   education
+  [23/37] ts402@duke.edu                             us     role=4   education
+  [23/37] ts402@duke.edu                             us     role=4   education
+  [24/37] questions@pavanpkulkarni.com               us     role=4   corporate
+  [24/37] pavan.git@gmail.com                        us     role=4   personal
+  [24/37] pavan.git@gmail.com                        us     role=4   personal
+  [24/37] pavan.git@gmail.com                        us     role=4   personal
+  [26/37] ndphillips@gmail.com                       us     role=4   personal
+  [26/37] ndphillips@gmail.com                       us     role=4   personal
+  [26/37] ndphillips@gmail.com                       us     role=4   personal
+  [30/37] edu.shradhanjali@gmail.com                 us     role=4   personal
+  [30/37] shradhanjalipradhan14@gmail.com            us     role=4   personal
+  [31/37] aidancharlesstone@gmail.com                us     role=7   personal
+  [31/37] aidancharlesstone@gmail.com                us     role=7   personal
+  [31/37] aidancharlesstone@gmail.com                us     role=7   personal
+  [32/37] pwlandoll@gmail.com                        us     role=4   personal
+  [32/37] pwlandoll@gmail.com                        us     role=4   personal
+  [34/37] adrianord@gmail.com                        us     role=4   personal
+  [34/37] adrianord@gmail.com                        us     role=4   personal
+  [34/37] adrianord@gmail.com                        us     role=4   personal
+  [35/37] shilongjaycui@gmail.com                    us     role=5   personal
+  [35/37] shilongjaycui@gmail.com                    us     role=5   personal
+  [35/37] shilongjaycui@gmail.com                    us     role=5   personal
+  [35/37] shilongjaycui@gmail.com                    us     role=5   personal
+  [36/37] kelvinmendoza309@gmail.com                 us     role=8   personal
+  [36/37] kelvinmendoza573@gmail.com                 us     role=8   personal
+  [36/37] kelvinmendoza573@gmail.com                 us     role=8   personal
+  [36/37] kelvinmendoza573@gmail.com                 us     role=8   personal
+{
+  "generated_at": "2026-11-18T02:12:00Z",
+  "out_dir": "C:\\temp\\ghscan\\out_us_devs",
+  "candidates_evaluated": 37,
+  "unique_emails": 188,
+  "requests": 181,
+  "elapsed_seconds": 152.7,
+  "filters": {
+    "min_role_score": 2,
+    "include_unknown_location": false,
+    "include_noreply": false,
+    "repos_per_user": 2,
+    "commits_per_repo": 3
+  },
+  "status_counts": {
+    "new": 63,
+    "no_email_found": 20,
+    "collected": 16,
+    "skipped_role_score_1": 1
+  },
+  "email_type_counts": {
+    "personal": 154,
+    "corporate": 24,
+    "education": 10
+  },
+  "us_match_counts": {
+    "us": 188
+  }
+}

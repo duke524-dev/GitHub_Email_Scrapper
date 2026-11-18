@@ -1,0 +1,43 @@
+# Broad discovery bank to reach 500 unique emails
+location:"United States" "software engineer" type:user
+location:"United States" developer type:user
+location:"United States" backend type:user
+location:"United States" frontend type:user
+location:"United States" fullstack type:user
+location:"United States" devops type:user
+location:"United States" "data engineer" type:user
+location:"United States" "machine learning" type:user
+location:"United States" "platform engineer" type:user
+location:"United States" sre type:user
+location:"USA" developer type:user
+location:"USA" "software engineer" type:user
+location:"Remote" "United States" engineer type:user
+location:"Remote" "United States" developer type:user
+location:"California" engineer type:user
+location:"California" developer type:user
+location:"Texas" engineer type:user
+location:"Texas" developer type:user
+location:"New York" engineer type:user
+location:"New York" developer type:user
+location:"Washington" engineer type:user
+location:"Washington" developer type:user
+location:"Massachusetts" engineer type:user
+location:"Colorado" developer type:user
+location:"Illinois" engineer type:user
+location:"Georgia" developer type:user
+location:"Florida" engineer type:user
+location:"Oregon" developer type:user
+location:"Arizona" engineer type:user
+location:"North Carolina" developer type:user
+location:"San Francisco" engineer type:user
+location:"Seattle" developer type:user
+location:"Austin" engineer type:user
+location:"Boston" developer type:user
+location:"Chicago" engineer type:user
+location:"Los Angeles" developer type:user
+location:"Denver" engineer type:user
+location:"Atlanta" developer type:user
+location:"Portland" engineer type:user
+location:"San Diego" developer type:user
+location:"Bay Area" engineer type:user
+location:"NYC" developer type:user

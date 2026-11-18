@@ -1,0 +1,932 @@
+
+=== progress: 188/500 unique emails ===
+batch 1/25: seed=20261214 limit=400 need=312
+C:\Python314\python.exe -u gh_email_scraper_20261114.py run --queries-file queries_expand_500.txt --limit 400 --max-emails 500 --seed 20261214 --out out_us_devs
+  query 1/42: +100 (total 100) :: location:"United States" "software engineer" type:user
+  query 2/42: +98 (total 198) :: location:"United States" developer type:user
+  query 3/42: +98 (total 296) :: location:"United States" backend type:user
+  query 4/42: +91 (total 387) :: location:"United States" frontend type:user
+  query 5/42: +94 (total 481) :: location:"United States" fullstack type:user
+  query 6/42: +96 (total 577) :: location:"United States" devops type:user
+  query 7/42: +99 (total 676) :: location:"United States" "data engineer" type:user
+  query 8/42: +98 (total 774) :: location:"United States" "machine learning" type:user
+  query 9/42: +49 (total 823) :: location:"United States" "platform engineer" type:user
+  query 10/42: +92 (total 915) :: location:"United States" sre type:user
+  query 11/42: +100 (total 1015) :: location:"USA" developer type:user
+  query 12/42: +99 (total 1114) :: location:"USA" "software engineer" type:user
+  query 13/42: +0 (total 1114) :: location:"Remote" "United States" engineer type:user
+  query 14/42: +0 (total 1114) :: location:"Remote" "United States" developer type:user
+  query 15/42: +89 (total 1203) :: location:"California" engineer type:user
+discovered 400 candidate logins
+candidates: 400 | already processed: 103 | pending: 297
+  [1/297] ppenna@microsoft.com                       us     role=4   corporate
+  [1/297] ppenna@microsoft.com                       us     role=4   corporate
+  [1/297] ppenna@microsoft.com                       us     role=4   corporate
+  [1/297] ppenna@microsoft.com                       us     role=4   corporate
+  [2/297] cgaritac@gmail.com                         us     role=3   personal
+  [2/297] cgaritac@gmail.com                         us     role=3   personal
+  [2/297] cgaritac@gmail.com                         us     role=3   personal
+  [6/297] adrian.hartley.2000+gh@gmail.com           us     role=5   personal
+  [6/297] gracieaerogirl@gmail.com                   us     role=5   personal
+  [6/297] gracieaerogirl@gmail.com                   us     role=5   personal
+  [7/297] mrblackcto@outlook.com                     us     role=7   personal
+  [7/297] mrblackcto@outlook.com                     us     role=7   personal
+  [7/297] mrblackcto@outlook.com                     us     role=7   personal
+  [8/297] sudip.padhye@gmail.com                     us     role=4   personal
+  [8/297] sudip.padhye@gmail.com                     us     role=4   personal
+  [15/297] meghanaska97@gmail.com                     us     role=3   personal
+  [17/297] richardbek9608@gmail.com                   us     role=3   personal
+  [20/297] johnnykim94@hotmail.com                    us     role=3   personal
+  [25/297] noreply@anthropic.com                      us     role=4   corporate
+  [25/297] noreply@anthropic.com                      us     role=4   corporate
+  [25/297] noreply@anthropic.com                      us     role=4   corporate
+  [26/297] atouch.it@gmail.com                        us     role=4   personal
+  [26/297] sreytouch.lang95@gmail.com                 us     role=4   personal
+  [27/297] alex@vanyo.dev                             us     role=6   corporate
+  [27/297] alex@vanyo.dev                             us     role=6   corporate
+  [27/297] alex@vanyo.dev                             us     role=6   corporate
+  [28/297] markagopikrishna68@gmail.com               us     role=12  personal
+  [29/297] kevin.lin.gurudev@outlook.com              us     role=10  personal
+  [29/297] kevin.lin.gurudev@outlook.com              us     role=10  personal
+  [29/297] kevin.lin.gurudev@outlook.com              us     role=10  personal
+  [31/297] srikrishnakireet@gmail.com                 us     role=8   personal
+  [31/297] srikrishnakireet@gmail.com                 us     role=8   personal
+  [31/297] srikrishnakireet@gmail.com                 us     role=8   personal
+  [31/297] srikrishnakireet@gmail.com                 us     role=8   personal
+  [32/297] katie.levy1@gmail.com                      us     role=4   personal
+  [32/297] katie.levy1@gmail.com                      us     role=4   personal
+  [33/297] nil.darade@gmail.com                       us     role=4   personal
+  [33/297] nil.darade@gmail.com                       us     role=4   personal
+  [33/297] nil.darade@gmail.com                       us     role=4   personal
+  [35/297] dawson@funkemunky.cc                       us     role=4   corporate
+  [35/297] dawson@funkemunky.cc                       us     role=4   corporate
+  [35/297] dawson@funkemunky.cc                       us     role=4   corporate
+  [36/297] cooper@goodin.dev                          us     role=5   corporate
+  [38/297] vinjn.z@gmail.com                          us     role=2   personal
+  [38/297] vinjn.z@gmail.com                          us     role=2   personal
+  [38/297] vinjn.z@gmail.com                          us     role=2   personal
+  [39/297] viram.kishan@gmail.com                     us     role=2   personal
+  [41/297] pvnsvrohit@gmail.com                       us     role=4   personal
+  [41/297] pvnsvrohit@gmail.com                       us     role=4   personal
+  [41/297] pvnsvrohit@gmail.com                       us     role=4   personal
+  [43/297] varun.totakura@gmail.com                   us     role=3   personal
+  [43/297] varun.totakura@gmail.com                   us     role=3   personal
+  [43/297] totakura.varun@gmail.com                   us     role=3   personal
+  [43/297] totakura.varun@gmail.com                   us     role=3   personal
+  [44/297] lauraeberge@gmail.com                      us     role=4   personal
+  [44/297] lauraeberge@gmail.com                      us     role=4   personal
+  [45/297] john.arterberry@gmail.com                  us     role=6   personal
+  [45/297] john.arterberry@gmail.com                  us     role=6   personal
+  [46/297] mellinoe@gmail.com                         us     role=2   personal
+  [46/297] mellinoe@gmail.com                         us     role=2   personal
+  [46/297] mellinoe@gmail.com                         us     role=2   personal
+  [47/297] edecena@gmail.com                          us     role=3   personal
+  [47/297] edecena@gmail.com                          us     role=3   personal
+  [47/297] edecena@gmail.com                          us     role=3   personal
+  [51/297] naqdi.ab@gmail.com                         us     role=4   personal
+  [51/297] naqdi.ab@gmail.com                         us     role=4   personal
+  [51/297] naqdi.ab@gmail.com                         us     role=4   personal
+  [52/297] noahwoodward2244@gmail.com                 us     role=2   personal
+  [52/297] noahwoodward2244@gmail.com                 us     role=2   personal
+  [52/297] noahwoodward2244@gmail.com                 us     role=2   personal
+  [56/297] bhatt226@d.umn.edu                         us     role=2   education
+  [56/297] bhatt226@d.umn.edu                         us     role=2   education
+  [57/297] tnybny@gmail.com                           us     role=2   personal
+  [57/297] tnybny@gmail.com                           us     role=2   personal
+  [57/297] tnybny@gmail.com                           us     role=2   personal
+  [64/297] rakib987@gmail.com                         us     role=4   personal
+  [64/297] rakib987@gmail.com                         us     role=4   personal
+  [64/297] rakib987@gmail.com                         us     role=4   personal
+  [66/297] aafaqueabdullah@yahoo.com                  us     role=2   personal
+  [66/297] aafaqueabdullah@yahoo.com                  us     role=2   personal
+  [66/297] aafaqueabdullah@yahoo.com                  us     role=2   personal
+  [67/297] cal@calstephens.tech                       us     role=2   corporate
+  [67/297] cal.stephens@airbnb.com                    us     role=2   corporate
+  [67/297] cal.stephens@airbnb.com                    us     role=2   corporate
+  [68/297] fabrzytech@gmail.com                       us     role=7   personal
+  [71/297] office@succpinnsolutions.com               us     role=4   corporate
+  [72/297] jamie@jamie-johnson.com                    us     role=2   corporate
+  [72/297] jamie@jamie-johnson.com                    us     role=2   corporate
+  [72/297] jamie@jamie-johnson.com                    us     role=2   corporate
+  [76/297] alaisgomes@gmail.com                       us     role=4   personal
+  [77/297] dogukanteber1@hotmail.com                  us     role=6   personal
+  [77/297] dogukanteber1@hotmail.com                  us     role=6   personal
+  [77/297] dogukanteber1@hotmail.com                  us     role=6   personal
+  [77/297] dogukanteber1@hotmail.com                  us     role=6   personal
+  [78/297] marlene@designbymarlene.com                us     role=2   corporate
+  [78/297] marlene@designbymarlene.com                us     role=2   corporate
+  [80/297] mattbrown@spotify.com                      us     role=4   corporate
+  [80/297] matt@mattnworb.com                         us     role=4   corporate
+  [80/297] matt@mattnworb.com                         us     role=4   corporate
+  [84/297] aryansarswat2000@gmail.com                 us     role=2   personal
+  [85/297] ry.biesemeyer@elastic.co                   us     role=4   corporate
+  [85/297] ry.biesemeyer@elastic.co                   us     role=4   corporate
+  [85/297] ry.biesemeyer@elastic.co                   us     role=4   corporate
+  [86/297] emmachilaka@outlook.com                    us     role=6   personal
+  [86/297] emmanuelchilaka779@gmail.com               us     role=6   personal
+  [87/297] arryerhan@gmail.com                        us     role=7   personal
+  [88/297] burdettadam@gmail.com                      us     role=8   personal
+  [88/297] burdettadam@gmail.com                      us     role=8   personal
+  [88/297] burdettadam@gmail.com                      us     role=8   personal
+  [89/297] jimbobbennett@mac.com                      us     role=6   personal
+  [89/297] jimbobbennett@mac.com                      us     role=6   personal
+  [91/297] armendero330@gmail.com                     us     role=4   personal
+  [91/297] armendero330@gmail.com                     us     role=4   personal
+  [91/297] armendero330@gmail.com                     us     role=4   personal
+  [93/297] rexfeng@gmail.com                          us     role=5   personal
+  [93/297] rexfeng@gmail.com                          us     role=5   personal
+  [93/297] rexfeng@gmail.com                          us     role=5   personal
+  [95/297] wilton86hegmanncuc@hotmail.com             us     role=3   personal
+  [95/297] wilton86hegmanncuc@hotmail.com             us     role=3   personal
+  [96/297] me@chrislewis.au                           us     role=4   corporate
+  [96/297] me@chrislewis.au                           us     role=4   corporate
+  [96/297] me@chrislewis.au                           us     role=4   corporate
+  [97/297] maahipatel902@gmail.com                    us     role=2   personal
+  [98/297] sreenidhi082003@gmail.com                  us     role=5   personal
+  [98/297] sreenidhi082003@gmail.com                  us     role=5   personal
+  [103/297] comp.it.05@inbox.ru                        us     role=5   corporate
+  [104/297] samarth.aggarwal.2510@gmail.com            us     role=4   personal
+  [104/297] samarth.aggarwal.2510@gmail.com            us     role=4   personal
+  [104/297] samarth.aggarwal.2510@gmail.com            us     role=4   personal
+  [105/297] kiranmaichowdary717@gmail.com              us     role=4   personal
+  [106/297] harshmaur@gmail.com                        us     role=4   personal
+  [106/297] harshmaur@gmail.com                        us     role=4   personal
+  [106/297] harshmaur@gmail.com                        us     role=4   personal
+  [107/297] sbastida04@gmail.com                       us     role=2   personal
+  [107/297] sebastianbastidaofficial@gmail.com         us     role=2   personal
+  [107/297] sebastianbastidaofficial@gmail.com         us     role=2   personal
+  [108/297] developer@mihaj.org                        us     role=4   corporate
+  [108/297] developer@mihaj.org                        us     role=4   corporate
+  [108/297] developer@mihaj.org                        us     role=4   corporate
+  [109/297] noah.pendleton@gmail.com                   us     role=4   personal
+  [109/297] weidagang@gmail.com                        us     role=4   personal
+  [109/297] m1ch3lcl@gmail.com                         us     role=4   personal
+  [110/297] ilia.kniazev1@gmail.com                    us     role=6   personal
+  [110/297] ilia.kniazev1@gmail.com                    us     role=6   personal
+  [110/297] ilia.kniazev1@gmail.com                    us     role=6   personal
+  [114/297] sajidhasanapon@gmail.com                   us     role=4   personal
+  [114/297] sajidhasanapon@gmail.com                   us     role=4   personal
+  [114/297] sajidhasanapon@gmail.com                   us     role=4   personal
+  [115/297] jamie.corkhill@live.com                    us     role=4   personal
+  [115/297] jamie.corkhill@live.com                    us     role=4   personal
+  [116/297] smhassan.erfani@gmail.com                  us     role=3   personal
+  [116/297] smhassan.erfani@gmail.com                  us     role=3   personal
+  [116/297] smhassan.erfani@gmail.com                  us     role=3   personal
+  [117/297] henryzheng92@gmail.com                     us     role=6   personal
+  [117/297] ruixiangzheng95@gmail.com                  us     role=6   personal
+  [117/297] ruixiangzheng95@gmail.com                  us     role=6   personal
+  [121/297] sreeja.vallamulla@gmail.com                us     role=4   personal
+  [122/297] timblaktu@gmail.com                        us     role=6   personal
+  [122/297] timblaktu@gmail.com                        us     role=6   personal
+  [122/297] timblaktu@gmail.com                        us     role=6   personal
+  [125/297] sohamhp@uci.edu                            us     role=2   education
+  [126/297] me.santosrai@gmail.com                     us     role=4   personal
+  [127/297] sameer4363@gmail.com                       us     role=6   personal
+  [127/297] sameer4363@gmail.com                       us     role=6   personal
+  [127/297] sameer4363@gmail.com                       us     role=6   personal
+  [128/297] amloyal4life@gmail.com                     us     role=5   personal
+  [128/297] amloyal4life@gmail.com                     us     role=5   personal
+  [128/297] amloyal4life@gmail.com                     us     role=5   personal
+  [129/297] ahamedali95@gmail.com                      us     role=6   personal
+  [129/297] ahamedali95@gmail.com                      us     role=6   personal
+  [129/297] ahamedali95@gmail.com                      us     role=6   personal
+  [131/297] shubhammandora220800@gmail.com             us     role=3   personal
+  [132/297] tyler4long@gmail.com                       us     role=3   personal
+  [132/297] tyler4long@gmail.com                       us     role=3   personal
+  [132/297] tyler4long@gmail.com                       us     role=3   personal
+  [133/297] campbell.andreza@gmail.com                 us     role=7   personal
+  [133/297] campbell.andreza@gmail.com                 us     role=7   personal
+  [134/297] contact@bchaindev.com                      us     role=2   corporate
+  [137/297] hieutdo2@gmail.com                         us     role=4   personal
+  [137/297] hieutdo2@gmail.com                         us     role=4   personal
+  [137/297] hieutdo2@gmail.com                         us     role=4   personal
+  [139/297] contact@sandries.com                       us     role=2   corporate
+  [140/297] hpeterson462@gmail.com                     us     role=8   personal
+  [140/297] hpeterson462@gmail.com                     us     role=8   personal
+  [140/297] hpeterson462@gmail.com                     us     role=8   personal
+  [142/297] matas2k@gmail.com                          us     role=4   personal
+  [144/297] sreynolds203@gmail.com                     us     role=6   personal
+  [144/297] sreynolds203@gmail.com                     us     role=6   personal
+  [144/297] sreynolds203@gmail.com                     us     role=6   personal
+  [145/297] geeksambhu@gmail.com                       us     role=5   personal
+  [148/297] lbear9090@hotmail.com                      us     role=3   personal
+  [149/297] nimatullah.razmjo@gmail.com                us     role=5   personal
+  [149/297] nimat.razmjo@gmail.com                     us     role=5   personal
+  [149/297] nimatullah.razmjo@gmail.com                us     role=5   personal
+  [149/297] nimatullah.razmjo@gmail.com                us     role=5   personal
+  [152/297] krishna141100@gmail.com                    us     role=12  personal
+  [152/297] krishnapriya141100@gmail.com               us     role=12  personal
+  [153/297] aasthas2022@gmail.com                      us     role=4   personal
+  [153/297] aasthas2022@gmail.com                      us     role=4   personal
+  [153/297] aasthas2022@gmail.com                      us     role=4   personal
+  [153/297] aasthas2022@gmail.com                      us     role=4   personal
+  [154/297] chandlersquires18@gmail.com                us     role=2   personal
+  [154/297] chandlersquires18@gmail.com                us     role=2   personal
+  [154/297] chandlersquires18@gmail.com                us     role=2   personal
+  [155/297] ben@baker76.com                            us     role=4   corporate
+  [155/297] headkaze@gmail.com                         us     role=4   personal
+  [155/297] headkaze@gmail.com                         us     role=4   personal
+  [155/297] headkaze@gmail.com                         us     role=4   personal
+  [156/297] alexsebastian.garcia@gmail.com             us     role=4   personal
+  [158/297] tushardave26@gmail.com                     us     role=4   personal
+  [158/297] tushardave26@gmail.com                     us     role=4   personal
+  [158/297] tushardave26@gmail.com                     us     role=4   personal
+  [159/297] gangadhar94r@gmail.com                     us     role=11  personal
+  [159/297] gangadhar94r@gmail.com                     us     role=11  personal
+  [159/297] gangadhar94r@gmail.com                     us     role=11  personal
+  [159/297] gangadhar94r@gmail.com                     us     role=11  personal
+  [160/297] victrinhoj@gmail.com                       us     role=6   personal
+  [160/297] victrinhoj@gmail.com                       us     role=6   personal
+  [160/297] victrinhoj@gmail.com                       us     role=6   personal
+  [161/297] jamesmaron87@gmail.com                     us     role=3   personal
+  [162/297] piu.mallick@outlook.com                    us     role=4   personal
+  [164/297] pallavi9964@gmail.com                      us     role=5   personal
+  [164/297] pallavi9964@gmail.com                      us     role=5   personal
+  [164/297] pallavi9964@gmail.com                      us     role=5   personal
+  [166/297] nguyenthien.tech@gmail.com                 us     role=5   personal
+  [170/297] cursoragent@cursor.com                     us     role=4   corporate
+  [170/297] cursoragent@cursor.com                     us     role=4   corporate
+  [170/297] cursoragent@cursor.com                     us     role=4   corporate
+  [173/297] paul@mclanahan.net                         us     role=3   corporate
+  [173/297] paul@mclanahan.net                         us     role=3   corporate
+  [173/297] paul@mclanahan.net                         us     role=3   corporate
+  [174/297] rajeshjaiswal878@gmail.com                 us     role=4   personal
+  [174/297] rajeshjaiswal878@gmail.com                 us     role=4   personal
+  [180/297] kushaldhruv025@gmail.com                   us     role=6   personal
+  [180/297] kushal.shah@gotelka.com                    us     role=6   corporate
+  [181/297] pujarjayakumar7799@gmail.com               us     role=3   personal
+  [181/297] pujarjayakumar7799@gmail.com               us     role=3   personal
+  [181/297] pujarjayakumar7799@gmail.com               us     role=3   personal
+  [182/297] scribeklio@gmail.com                       us     role=3   personal
+  [182/297] scribeklio@gmail.com                       us     role=3   personal
+  [182/297] scribeklio@gmail.com                       us     role=3   personal
+  [184/297] jufudev@proton.me                          us     role=10  personal
+  [184/297] austinhjones3@gmail.com                    us     role=10  personal
+  [184/297] austinhjones3@gmail.com                    us     role=10  personal
+  [186/297] bennerster@gmail.com                       us     role=8   personal
+  [186/297] bennerster@gmail.com                       us     role=8   personal
+  [187/297] jeff@jbuchbinder.com                       us     role=3   corporate
+  [187/297] jeff@jbuchbinder.com                       us     role=3   corporate
+  [187/297] jeff@jbuchbinder.com                       us     role=3   corporate
+  [188/297] neelkamathonline@gmail.com                 us     role=6   personal
+  [188/297] neelkamathonline@gmail.com                 us     role=6   personal
+  [190/297] alexis.david.mendez@gmail.com              us     role=5   personal
+  [190/297] alexis.david.mendez@gmail.com              us     role=5   personal
+  [190/297] alexis.david.mendez@gmail.com              us     role=5   personal
+  [190/297] alexis.david.mendez@gmail.com              us     role=5   personal
+  [191/297] linhlaing@outlook.com                      us     role=3   personal
+  [193/297] isaacrob@me.com                            us     role=2   personal
+  [193/297] isaacrob@me.com                            us     role=2   personal
+  [193/297] isaacrob@me.com                            us     role=2   personal
+  [194/297] wei.xu@cc.gatech.edu                       us     role=2   education
+  [194/297] wei.xu@cc.gatech.edu                       us     role=2   education
+  [196/297] cefdonnelly@gmail.com                      us     role=3   personal
+  [196/297] cefdonnelly@gmail.com                      us     role=3   personal
+  [196/297] cefdonnelly@gmail.com                      us     role=3   personal
+  [199/297] chris@theguidrys.us                        us     role=4   corporate
+  [199/297] chris@theguidrys.us                        us     role=4   corporate
+  [199/297] chris@theguidrys.us                        us     role=4   corporate
+  [200/297] sreeram.ss2001@gmail.com                   us     role=5   personal
+  [200/297] sreeram.ss2001@gmail.com                   us     role=5   personal
+  [201/297] shravanhariharan2@gmail.com                us     role=4   personal
+  [201/297] shravanhariharan2@gmail.com                us     role=4   personal
+  [201/297] shravanhariharan2@gmail.com                us     role=4   personal
+  [203/297] andrew@youngshome.com                      us     role=4   corporate
+  [205/297] ignacioquesada1123@gmail.com               us     role=4   personal
+  [205/297] ignacioquesada1123@gmail.com               us     role=4   personal
+  [205/297] ignacioquesada1123@gmail.com               us     role=4   personal
+  [206/297] desaiparth2000@gmail.com                   us     role=4   personal
+  [206/297] desaiparth2000@gmail.com                   us     role=4   personal
+  [206/297] desaiparth2000@gmail.com                   us     role=4   personal
+  [206/297] desaiparth2000@gmail.com                   us     role=4   personal
+  [207/297] belabsayoub@gmail.com                      us     role=6   personal
+  [207/297] belabsayoub@gmail.com                      us     role=6   personal
+  [207/297] belabsayoub@gmail.com                      us     role=6   personal
+  [211/297] dchambourova@gmail.com                     us     role=3   personal
+  [211/297] dchambourova@gmail.com                     us     role=3   personal
+  [213/297] hossain.rayhan@outlook.com                 us     role=4   personal
+  [213/297] hossain.rayhan@outlook.com                 us     role=4   personal
+  [213/297] hossain.rayhan@outlook.com                 us     role=4   personal
+  [215/297] littlegangwolf@gmail.com                   us     role=4   personal
+  [215/297] littlegangwolf@gmail.com                   us     role=4   personal
+  [215/297] littlegangwolf@gmail.com                   us     role=4   personal
+  [216/297] git@gmarmstrong.dev                        us     role=4   corporate
+  [216/297] git@gmarmstrong.dev                        us     role=4   corporate
+  [216/297] git@gmarmstrong.dev                        us     role=4   corporate
+  [217/297] jake@jakeworth.com                         us     role=4   corporate
+  [217/297] jake@jakeworth.com                         us     role=4   corporate
+  [217/297] jake@jakeworth.com                         us     role=4   corporate
+  [217/297] jake@jakeworth.com                         us     role=4   corporate
+  [218/297] matthewmitar@gmail.com                     us     role=5   personal
+  [218/297] matthewmitar@gmail.com                     us     role=5   personal
+  [219/297] rafael.motalves@gmail.com                  us     role=4   personal
+  [219/297] rafael.motalves@gmail.com                  us     role=4   personal
+  [219/297] rafael.motalves@gmail.com                  us     role=4   personal
+  [222/297] mohammadsakibmahmood635@gmail.com          us     role=6   personal
+  [222/297] sakibmahmood485@gmail.com                  us     role=6   personal
+  [222/297] sakibmahmood485@gmail.com                  us     role=6   personal
+  [222/297] sakibmahmood485@gmail.com                  us     role=6   personal
+  [223/297] kalani.ayush@gmail.com                     us     role=2   personal
+  [223/297] kalani.ayush@gmail.com                     us     role=2   personal
+  [226/297] aleyang@nvidia.com                         us     role=2   corporate
+  [226/297] aleyang@nvidia.com                         us     role=2   corporate
+  [226/297] aleyang@nvidia.com                         us     role=2   corporate
+  [230/297] desoukya@gmail.com                         us     role=4   personal
+  [230/297] desoukya@gmail.com                         us     role=4   personal
+  [230/297] desoukya@gmail.com                         us     role=4   personal
+  [231/297] sunyucong@gmail.com                        us     role=7   personal
+  [231/297] sunyucong@gmail.com                        us     role=7   personal
+  [231/297] sunyucong@gmail.com                        us     role=7   personal
+  [232/297] bibekguptaweb@gmail.com                    us     role=3   personal
+  [232/297] bibekgupta3333@gmail.com                   us     role=3   personal
+  [232/297] bibekgupta3333@gmail.com                   us     role=3   personal
+  [232/297] bibekgupta3333@gmail.com                   us     role=3   personal
+  [236/297] jonh.wendell@redhat.com                    us     role=5   corporate
+  [236/297] jonh.wendell@redhat.com                    us     role=5   corporate
+  [236/297] jonh.wendell@redhat.com                    us     role=5   corporate
+  [237/297] hernaj61@proton.me                         us     role=6   personal
+  [237/297] jhern61@gmail.com                          us     role=6   personal
+  [237/297] jhern61@gmail.com                          us     role=6   personal
+  [239/297] aebb001@gmail.com                          us     role=3   personal
+  [240/297] jamesdbruner@gmail.com                     us     role=3   personal
+  [240/297] jamesdbruner@gmail.com                     us     role=3   personal
+  [240/297] jamesdbruner@gmail.com                     us     role=3   personal
+  [242/297] stju@manning.com                           us     role=4   corporate
+  [244/297] djpeach96@gmail.com                        us     role=6   personal
+  [244/297] djpeach96@gmail.com                        us     role=6   personal
+  [244/297] djpeach96@gmail.com                        us     role=6   personal
+  [248/297] dasha4988@gmail.com                        us     role=4   personal
+  [248/297] dasha4988@gmail.com                        us     role=4   personal
+  [249/297] masy370@gmail.com                          us     role=4   personal
+  [251/297] streetbard16@hotmail.com                   us     role=3   personal
+  [251/297] streetbard16@hotmail.com                   us     role=3   personal
+  [251/297] streetbard16@hotmail.com                   us     role=3   personal
+  [252/297] jlokimlin@gmail.com                        us     role=4   personal
+  [252/297] jlokimlin@gmail.com                        us     role=4   personal
+  [252/297] jlokimlin@gmail.com                        us     role=4   personal
+  [256/297] wolfdaemon@murena.io                       us     role=5   corporate
+  [256/297] wolfdaemon@murena.io                       us     role=5   corporate
+  [256/297] wolfdaemon@murena.io                       us     role=5   corporate
+  [257/297] greg@faethflex.com                         us     role=3   corporate
+  [257/297] greg@faethflex.com                         us     role=3   corporate
+  [257/297] greg@faethflex.com                         us     role=3   corporate
+  [261/297] azizmousa1010@gmail.com                    us     role=3   personal
+  [269/297] towardsunshine7@gmail.com                  us     role=4   personal
+  [269/297] towardsunshine7@gmail.com                  us     role=4   personal
+  [269/297] towardsunshine7@gmail.com                  us     role=4   personal
+  [271/297] kedarnanda@mac.mynetworksettings.com       us     role=5   corporate
+  [271/297] kedarnanda@mac.mynetworksettings.com       us     role=5   corporate
+  [271/297] kedarnanda@mac.mynetworksettings.com       us     role=5   corporate
+  [273/297] kelly.sovacool@nih.gov                     us     role=5   corporate
+  [273/297] kelly.sovacool@nih.gov                     us     role=5   corporate
+  [275/297] peter.kehl@gmail.com                       us     role=2   personal
+  [275/297] peter.kehl@gmail.com                       us     role=2   personal
+  [275/297] peter.kehl@gmail.com                       us     role=2   personal
+  [276/297] floriandubost1@gmail.com                   us     role=2   personal
+  [276/297] floriandubost1@gmail.com                   us     role=2   personal
+  [276/297] floriandubost1@gmail.com                   us     role=2   personal
+  [277/297] abkierstein@gmail.com                      us     role=5   personal
+  [278/297] vmaineng@gmail.com                         us     role=4   personal
+  [278/297] vmaineng@gmail.com                         us     role=4   personal
+  [278/297] vmaineng@gmail.com                         us     role=4   personal
+  [279/297] srosenthal82@gmail.com                     us     role=4   personal
+  [281/297] sanjeevraichur29@outlook.com               us     role=4   personal
+  [281/297] sanjeevraichur29@gmail.com                 us     role=4   personal
+  [281/297] sanjeevraichur29@gmail.com                 us     role=4   personal
+  [281/297] sanjeevraichur29@gmail.com                 us     role=4   personal
+  [282/297] rayning@gmail.com                          us     role=4   personal
+  [283/297] hgudmund@redhat.com                        us     role=3   corporate
+  [283/297] hgudmund@redhat.com                        us     role=3   corporate
+  [283/297] hgudmund@redhat.com                        us     role=3   corporate
+  [284/297] jim@wiki3.ai                               us     role=4   corporate
+  [284/297] jim@wiki3.ai                               us     role=4   corporate
+  [284/297] jim@wiki3.ai                               us     role=4   corporate
+  [286/297] colin99delahunty@gmail.com                 us     role=4   personal
+  [290/297] chisato.syu@gmail.com                      us     role=4   personal
+  [290/297] chisato.syu@gmail.com                      us     role=4   personal
+  [292/297] igargouri1@gmail.com                       us     role=4   personal
+  [292/297] igargouri1@gmail.com                       us     role=4   personal
+  [292/297] igargouri1@gmail.com                       us     role=4   personal
+  [295/297] anandakumarpagadala04@gmail.com            us     role=10  personal
+  [295/297] anandakumarpagadala04@gmail.com            us     role=10  personal
+  [295/297] anandakumarpagadala04@gmail.com            us     role=10  personal
+new emails this run: 176 -> C:\temp\ghscan\new_emails_20261117_185820.csv
+{
+  "generated_at": "2026-11-18T03:19:30Z",
+  "out_dir": "C:\\temp\\ghscan\\out_us_devs",
+  "candidates_evaluated": 297,
+  "unique_emails": 364,
+  "new_emails": 176,
+  "new_emails_file": "C:\\temp\\ghscan\\new_emails_20261117_185820.csv",
+  "requests": 1519,
+  "elapsed_seconds": 1269.5,
+  "filters": {
+    "min_role_score": 2,
+    "include_unknown_location": false,
+    "include_noreply": false,
+    "repos_per_user": 2,
+    "commits_per_repo": 3
+  },
+  "status_counts": {
+    "collected": 159,
+    "no_email_found": 103,
+    "new": 103,
+    "skipped_role_score_0": 20,
+    "skipped_role_score_1": 15
+  },
+  "email_type_counts": {
+    "personal": 293,
+    "corporate": 60,
+    "education": 13
+  },
+  "us_match_counts": {
+    "us": 366
+  }
+}
+batch 1 exit=0 +176 emails (1370.8s) -> 364/500
+
+=== progress: 364/500 unique emails ===
+batch 2/25: seed=20261311 limit=400 need=136
+C:\Python314\python.exe -u gh_email_scraper_20261114.py run --queries-file queries_expand_500.txt --limit 400 --max-emails 500 --seed 20261311 --out out_us_devs
+  query 1/42: +100 (total 100) :: location:"United States" "software engineer" type:user
+  query 2/42: +98 (total 198) :: location:"United States" developer type:user
+  query 3/42: +98 (total 296) :: location:"United States" backend type:user
+  query 4/42: +91 (total 387) :: location:"United States" frontend type:user
+  query 5/42: +94 (total 481) :: location:"United States" fullstack type:user
+  query 6/42: +96 (total 577) :: location:"United States" devops type:user
+  query 7/42: +99 (total 676) :: location:"United States" "data engineer" type:user
+  query 8/42: +98 (total 774) :: location:"United States" "machine learning" type:user
+  query 9/42: +49 (total 823) :: location:"United States" "platform engineer" type:user
+  query 10/42: +92 (total 915) :: location:"United States" sre type:user
+  query 11/42: +100 (total 1015) :: location:"USA" developer type:user
+  query 12/42: +99 (total 1114) :: location:"USA" "software engineer" type:user
+  query 13/42: +0 (total 1114) :: location:"Remote" "United States" engineer type:user
+  query 14/42: +0 (total 1114) :: location:"Remote" "United States" developer type:user
+  query 15/42: +89 (total 1203) :: location:"California" engineer type:user
+discovered 400 candidate logins
+candidates: 400 | already processed: 199 | pending: 201
+  [2/201] yulya.sharkova.2002@gmail.com              us     role=3   personal
+  [2/201] yulya.sharkova.2002@gmail.com              us     role=3   personal
+  [4/201] odoi.leonard1@gmail.com                    us     role=3   personal
+  [7/201] madeyinka6@gmail.com                       us     role=4   personal
+  [8/201] zhanar.beishenalieva@gmail.com             us     role=3   personal
+  [9/201] nlutsenko@meta.com                         us     role=4   corporate
+  [9/201] nlutsenko@meta.com                         us     role=4   corporate
+  [9/201] nlutsenko@meta.com                         us     role=4   corporate
+  [11/201] franklinjohntwo94@gmail.com                us     role=5   personal
+  [12/201] edwardkim.ek@gmail.com                     us     role=2   personal
+  [13/201] saifullah2k21@gmail.com                    us     role=4   personal
+  [15/201] flarco@live.com                            us     role=4   personal
+  [15/201] flarco@live.com                            us     role=4   personal
+  [15/201] flarco@live.com                            us     role=4   personal
+  [18/201] vishnupulipaka22@gmail.com                 us     role=5   personal
+  [18/201] prohithrocks@gmail.com                     us     role=5   personal
+  [18/201] prohithrocks@gmail.com                     us     role=5   personal
+  [18/201] prohithrocks@gmail.com                     us     role=5   personal
+  [19/201] harshaopsd@gmail.com                       us     role=6   personal
+  [19/201] harshaopsd@gmail.com                       us     role=6   personal
+  [19/201] harshaopsd@gmail.com                       us     role=6   personal
+  [20/201] marcelomunizf1@gmail.com                   us     role=3   personal
+  [24/201] abarkaath@gmail.com                        us     role=4   personal
+  [26/201] loyalman318@gmail.com                      us     role=4   personal
+  [26/201] loyalman318@gmail.com                      us     role=4   personal
+  [26/201] loyalman318@gmail.com                      us     role=4   personal
+  [27/201] brentmclark@gmail.com                      us     role=5   personal
+  [28/201] sedat@kapanoglu.com                        us     role=3   corporate
+  [30/201] jasnell@gmail.com                          us     role=2   personal
+  [30/201] jasnell@gmail.com                          us     role=2   personal
+  [30/201] jasnell@gmail.com                          us     role=2   personal
+  [33/201] merchant.kaiz@gmail.com                    us     role=8   personal
+  [33/201] merchant.kaiz@gmail.com                    us     role=8   personal
+  [33/201] merchant.kaiz@gmail.com                    us     role=8   personal
+  [34/201] contact@jadenrazo.dev                      us     role=11  corporate
+  [36/201] maschardunn@gmail.com                      us     role=4   personal
+  [36/201] maschardunn@gmail.com                      us     role=4   personal
+  [36/201] maschardunn@gmail.com                      us     role=4   personal
+  [37/201] benwingeorge@gmail.com                     us     role=3   personal
+  [37/201] benwingeorge@gmail.com                     us     role=3   personal
+  [37/201] benwingeorge@gmail.com                     us     role=3   personal
+  [38/201] michaelfromano@gmail.com                   us     role=2   personal
+  [38/201] michaelfromano@gmail.com                   us     role=2   personal
+  [38/201] michaelfromano@gmail.com                   us     role=2   personal
+  [39/201] sz73@illinois.edu                          us     role=3   education
+  [39/201] sz73@illinois.edu                          us     role=3   education
+  [42/201] emmanuelidus@gmail.com                     us     role=6   personal
+  [42/201] emmanuelidus@gmail.com                     us     role=6   personal
+  [45/201] huanglipang@virginia.edu                   us     role=4   education
+  [51/201] bistenes@gmail.com                         us     role=4   personal
+  [51/201] bistenes@gmail.com                         us     role=4   personal
+  [51/201] bistenes@gmail.com                         us     role=4   personal
+  [55/201] contact@reubenschiopu.com                  us     role=3   corporate
+  [58/201] deeptiravikumar@gmail.com                  us     role=3   personal
+  [58/201] deeptiravikumar@gmail.com                  us     role=3   personal
+  [58/201] deeptiravikumar@gmail.com                  us     role=3   personal
+  [58/201] deeptiravikumar@gmail.com                  us     role=3   personal
+  [60/201] youssuf.elshall@zendesk.com                us     role=5   corporate
+  [61/201] gururise@gmail.com                         us     role=2   personal
+  [61/201] gururise@gmail.com                         us     role=2   personal
+  [61/201] gururise@gmail.com                         us     role=2   personal
+  [62/201] riccardo.bernardi@rocketmail.com           us     role=4   personal
+  [66/201] git@gabe565.com                            us     role=8   corporate
+  [66/201] git@gabe565.com                            us     role=8   corporate
+  [66/201] git@gabe565.com                            us     role=8   corporate
+  [67/201] russellbrandon1999@gmail.com               us     role=4   personal
+  [67/201] russellbrandon1999@gmail.com               us     role=4   personal
+  [67/201] russellbrandon1999@gmail.com               us     role=4   personal
+  [69/201] tejashreepandit@gmail.com                  us     role=4   personal
+  [69/201] tejashreepandit@gmail.com                  us     role=4   personal
+  [70/201] sangvaleap.vanny@gmail.com                 us     role=5   personal
+  [70/201] sangvaleap.vanny@gmail.com                 us     role=5   personal
+  [70/201] sangvaleap.vanny@gmail.com                 us     role=5   personal
+  [71/201] 13902937426@163.com                        us     role=2   corporate
+  [71/201] 13902937426@163.com                        us     role=2   corporate
+  [71/201] 13902937426@163.com                        us     role=2   corporate
+  [73/201] abiodunrasheed93@gmail.com                 us     role=6   personal
+  [73/201] abiodunrasheed93@gmail.com                 us     role=6   personal
+  [73/201] abiodunrasheed93@gmail.com                 us     role=6   personal
+  [74/201] its@raine.ing                              us     role=5   corporate
+  [74/201] its@raine.ing                              us     role=5   corporate
+  [74/201] its@raine.ing                              us     role=5   corporate
+  [79/201] mbooali@gmail.com                          us     role=6   personal
+  [80/201] ansadm@gmail.com                           us     role=3   personal
+  [80/201] ansadm@gmail.com                           us     role=3   personal
+  [80/201] ansadm@gmail.com                           us     role=3   personal
+  [81/201] rafa.delrey@gmail.com                      us     role=3   personal
+  [81/201] rafa.delrey@gmail.com                      us     role=3   personal
+  [81/201] rafa.delrey@gmail.com                      us     role=3   personal
+  [83/201] sreesaiogeti@gmail.com                     us     role=6   personal
+  [83/201] sreesaiogeti@gmail.com                     us     role=6   personal
+  [83/201] sreesaiogeti@gmail.com                     us     role=6   personal
+  [85/201] debajyotid2@hotmail.com                    us     role=3   personal
+  [89/201] eduardko2001@gmail.com                     us     role=10  personal
+  [93/201] emonats526@gmail.com                       us     role=2   personal
+  [94/201] nathan@nathlowe.com                        us     role=6   corporate
+  [101/201] petron@gmail.com                           us     role=6   personal
+  [101/201] petron@gmail.com                           us     role=6   personal
+  [101/201] petron@gmail.com                           us     role=6   personal
+  [103/201] jdblischak@gmail.com                       us     role=4   personal
+  [103/201] jdblischak@gmail.com                       us     role=4   personal
+  [103/201] jdblischak@gmail.com                       us     role=4   personal
+  [105/201] diedra.rater@gmail.com                     us     role=3   personal
+  [105/201] diedra.rater@gmail.com                     us     role=3   personal
+  [105/201] diedra.rater@gmail.com                     us     role=3   personal
+  [106/201] tmitchell7@uh.edu                          us     role=3   education
+  [106/201] tmitchell7@uh.edu                          us     role=3   education
+  [108/201] willie_m5296@hotmail.com                   us     role=4   personal
+  [108/201] willie_m5296@hotmail.com                   us     role=4   personal
+  [108/201] willie_m5296@hotmail.com                   us     role=4   personal
+  [111/201] leonid.bugaian@deutsche-boerse.com         us     role=5   corporate
+  [111/201] leonid.bugaian@deutsche-boerse.com         us     role=5   corporate
+  [112/201] austin.bonander@clickhouse.com             us     role=4   corporate
+  [112/201] austin.bonander@clickhouse.com             us     role=4   corporate
+  [112/201] austin.bonander@clickhouse.com             us     role=4   corporate
+  [120/201] ericka.r.odom@gmail.com                    us     role=3   personal
+  [120/201] ericka.r.odom@gmail.com                    us     role=3   personal
+  [120/201] ericka.r.odom@gmail.com                    us     role=3   personal
+  [125/201] christalococo@gmail.com                    us     role=9   personal
+  [125/201] montecitocandleco@gmail.com                us     role=9   personal
+  [125/201] montecitocandleco@gmail.com                us     role=9   personal
+  [125/201] montecitocandleco@gmail.com                us     role=9   personal
+  [126/201] enterprise.code.developer@gmail.com        us     role=4   personal
+  [126/201] enterprise.code.developer@gmail.com        us     role=4   personal
+  [126/201] enterprise.code.developer@gmail.com        us     role=4   personal
+  [127/201] aikolnow@gmail.com                         us     role=4   personal
+  [127/201] aikolnow@gmail.com                         us     role=4   personal
+  [127/201] aikolnow@gmail.com                         us     role=4   personal
+  [128/201] cai.eason@gmail.com                        us     role=4   personal
+  [128/201] cai.eason@gmail.com                        us     role=4   personal
+  [128/201] cai.eason@gmail.com                        us     role=4   personal
+  [138/201] puneet.ludu@gmail.com                      us     role=2   personal
+  [138/201] puneet.ludu@gmail.com                      us     role=2   personal
+  [138/201] puneet.ludu@gmail.com                      us     role=2   personal
+  [138/201] puneet.ludu@gmail.com                      us     role=2   personal
+  [139/201] vinamraneha@gmail.com                      us     role=3   personal
+  [141/201] chakinalasreenath@gmail.com                us     role=5   personal
+  [141/201] sreenath.chakinala@copart.com              us     role=5   corporate
+  [141/201] sreenath.chakinala@copart.com              us     role=5   corporate
+  [141/201] sreenath.chakinala@copart.com              us     role=5   corporate
+  [142/201] i.m.ralk@gmail.com                         us     role=3   personal
+  [143/201] codrkai@gmail.com                          us     role=2   personal
+  [143/201] codrkai@gmail.com                          us     role=2   personal
+  [147/201] hd7chen@gmail.com                          us     role=2   personal
+  [147/201] hd7chen@gmail.com                          us     role=2   personal
+  [148/201] chris@scheib.io                            us     role=4   corporate
+  [148/201] chris@scheib.io                            us     role=4   corporate
+  [148/201] chris@scheib.io                            us     role=4   corporate
+  [149/201] asaadsaad@gmail.com                        us     role=4   personal
+  [149/201] asaadsaad@gmail.com                        us     role=4   personal
+  [149/201] asaadsaad@gmail.com                        us     role=4   personal
+  [153/201] matt.piekenbrock@gmail.com                 us     role=3   personal
+  [153/201] matt.piekenbrock@gmail.com                 us     role=3   personal
+  [157/201] will@wsvincent.com                         us     role=2   corporate
+  [157/201] will@wsvincent.com                         us     role=2   corporate
+  [157/201] will@wsvincent.com                         us     role=2   corporate
+  [162/201] prayagpverma@gmail.com                     us     role=6   personal
+  [162/201] prayagpverma@gmail.com                     us     role=6   personal
+  [162/201] prayagpverma@gmail.com                     us     role=6   personal
+  [164/201] newton.chris685@gmail.com                  us     role=4   personal
+  [164/201] newton.chris685@gmail.com                  us     role=4   personal
+  [164/201] newton.chris685@gmail.com                  us     role=4   personal
+  [165/201] sjsg344@gmail.com                          us     role=3   personal
+  [165/201] sjsg344@gmail.com                          us     role=3   personal
+  [167/201] ashutoshbagal6427@gmail.com                us     role=2   personal
+  [168/201] zaveridishant@gmail.com                    us     role=8   personal
+  [169/201] vdondeti.naidu@gmail.com                   us     role=11  personal
+  [172/201] cody.grant@wizards.com                     us     role=6   corporate
+  [173/201] al7758066@gmail.com                        us     role=6   personal
+  [173/201] al7758066@gmail.com                        us     role=6   personal
+  [173/201] al7758066@gmail.com                        us     role=6   personal
+  [174/201] shbhamdbey@gmail.com                       us     role=4   personal
+  [175/201] tylernij@gmail.com                         us     role=2   personal
+  [175/201] tylernij@gmail.com                         us     role=2   personal
+  [175/201] tylernij@gmail.com                         us     role=2   personal
+  [180/201] robert.david.west@gmail.com                us     role=6   personal
+  [180/201] robert.west@talkiatry.com                  us     role=6   corporate
+  [180/201] robert.west@talkiatry.com                  us     role=6   corporate
+  [180/201] robert.west@talkiatry.com                  us     role=6   corporate
+  [181/201] katherine.brown8000@gmail.com              us     role=2   personal
+  [182/201] srujanachalluri@gmail.com                  us     role=8   personal
+  [191/201] bsandya1926@gmail.com                      us     role=11  personal
+  [193/201] cpettet11@gmail.com                        us     role=4   personal
+  [199/201] angel.tomala.reyes@gmail.com               us     role=5   personal
+new emails this run: 88 -> C:\temp\ghscan\new_emails_20261117_192124.csv
+{
+  "generated_at": "2026-11-18T03:37:47Z",
+  "out_dir": "C:\\temp\\ghscan\\out_us_devs",
+  "candidates_evaluated": 201,
+  "unique_emails": 452,
+  "new_emails": 88,
+  "new_emails_file": "C:\\temp\\ghscan\\new_emails_20261117_192124.csv",
+  "requests": 978,
+  "elapsed_seconds": 982.2,
+  "filters": {
+    "min_role_score": 2,
+    "include_unknown_location": false,
+    "include_noreply": false,
+    "repos_per_user": 2,
+    "commits_per_repo": 3
+  },
+  "status_counts": {
+    "new": 199,
+    "collected": 84,
+    "no_email_found": 76,
+    "skipped_role_score_0": 24,
+    "skipped_role_score_1": 16,
+    "no_public_repos": 1
+  },
+  "email_type_counts": {
+    "personal": 362,
+    "corporate": 76,
+    "education": 16
+  },
+  "us_match_counts": {
+    "us": 454
+  }
+}
+batch 2 exit=0 +88 emails (1096.7s) -> 452/500
+
+=== progress: 452/500 unique emails ===
+batch 3/25: seed=20261408 limit=250 need=48
+C:\Python314\python.exe -u gh_email_scraper_20261114.py run --queries-file queries_expand_500.txt --limit 250 --max-emails 500 --seed 20261408 --out out_us_devs
+  query 1/42: +100 (total 100) :: location:"United States" "software engineer" type:user
+  query 2/42: +98 (total 198) :: location:"United States" developer type:user
+  query 3/42: +98 (total 296) :: location:"United States" backend type:user
+  query 4/42: +91 (total 387) :: location:"United States" frontend type:user
+  query 5/42: +94 (total 481) :: location:"United States" fullstack type:user
+  query 6/42: +96 (total 577) :: location:"United States" devops type:user
+  query 7/42: +99 (total 676) :: location:"United States" "data engineer" type:user
+  query 8/42: +98 (total 774) :: location:"United States" "machine learning" type:user
+discovered 250 candidate logins
+candidates: 250 | already processed: 182 | pending: 68
+  [5/68] ahmedmohamed200354@gmail.com               us     role=6   personal
+  [16/68] witenberg.souza@gmail.com                  us     role=2   personal
+  [33/68] alberto.gruning.zen@gmail.com              us     role=3   personal
+  [34/68] semretb74@gmail.com                        us     role=7   personal
+  [43/68] akrammuj04@gmail.com                       us     role=5   personal
+  [44/68] saurabhdamle8@gmail.com                    us     role=6   personal
+  [47/68] ask@linoagency.com                         us     role=3   corporate
+  [48/68] ayushjain@nyu.edu                          us     role=2   education
+  [55/68] chrisdalbano12@gmail.com                   us     role=3   personal
+  [57/68] elibobcoder.821@gmail.com                  us     role=3   personal
+  [65/68] itshadyy@gmail.com                         us     role=5   personal
+new emails this run: 11 -> C:\temp\ghscan\new_emails_20261117_193841.csv
+{
+  "generated_at": "2026-11-18T03:54:56Z",
+  "out_dir": "C:\\temp\\ghscan\\out_us_devs",
+  "candidates_evaluated": 68,
+  "unique_emails": 463,
+  "new_emails": 11,
+  "new_emails_file": "C:\\temp\\ghscan\\new_emails_20261117_193841.csv",
+  "requests": 491,
+  "elapsed_seconds": 974.7,
+  "filters": {
+    "min_role_score": 2,
+    "include_unknown_location": false,
+    "include_noreply": false,
+    "repos_per_user": 2,
+    "commits_per_repo": 3
+  },
+  "status_counts": {
+    "new": 182,
+    "no_email_found": 50,
+    "collected": 11,
+    "skipped_role_score_1": 5,
+    "skipped_role_score_0": 2
+  },
+  "email_type_counts": {
+    "personal": 371,
+    "corporate": 77,
+    "education": 17
+  },
+  "us_match_counts": {
+    "us": 465
+  }
+}
+batch 3 exit=0 +11 emails (1029.3s) -> 463/500
+
+=== progress: 463/500 unique emails ===
+batch 4/25: seed=20261505 limit=250 need=37
+C:\Python314\python.exe -u gh_email_scraper_20261114.py run --queries-file queries_expand_500.txt --limit 250 --max-emails 500 --seed 20261505 --out out_us_devs
+  query 1/42: +100 (total 100) :: location:"United States" "software engineer" type:user
+  query 2/42: +98 (total 198) :: location:"United States" developer type:user
+  query 3/42: +98 (total 296) :: location:"United States" backend type:user
+  query 4/42: +91 (total 387) :: location:"United States" frontend type:user
+  query 5/42: +94 (total 481) :: location:"United States" fullstack type:user
+  query 6/42: +96 (total 577) :: location:"United States" devops type:user
+  query 7/42: +99 (total 676) :: location:"United States" "data engineer" type:user
+  query 8/42: +98 (total 774) :: location:"United States" "machine learning" type:user
+discovered 250 candidate logins
+candidates: 250 | already processed: 204 | pending: 46
+  [8/46] psalian1@hawk.illinoistech.edu             us     role=5   education
+  [25/46] zurabi.papiashvili.2@gmail.com             us     role=6   personal
+  [26/46] antidinotech@gmail.com                     us     role=2   personal
+  [26/46] bobmarketing5000@gmail.com                 us     role=2   personal
+  [26/46] bobmarketing5000@gmail.com                 us     role=2   personal
+  [26/46] bobmarketing5000@gmail.com                 us     role=2   personal
+  [27/46] emine.yalman.357@gmail.com                 us     role=5   personal
+  [30/46] acksecurity@hotmail.com                    us     role=4   personal
+  [30/46] acksecurity@hotmail.com                    us     role=4   personal
+  [30/46] acksecurity@hotmail.com                    us     role=4   personal
+  [32/46] moreno.ronline@gmail.com                   us     role=7   personal
+  [32/46] moreno.ronline@gmail.com                   us     role=7   personal
+  [33/46] cursoragent@cursor.com                     us     role=4   corporate
+  [33/46] devyashsanghai@gmail.com                   us     role=4   personal
+  [33/46] devyashsanghai@gmail.com                   us     role=4   personal
+  [34/46] a.schalkamp@imperial.ac.uk                 us     role=2   corporate
+  [34/46] a.schalkamp@imperial.ac.uk                 us     role=2   corporate
+  [43/46] dreambeyondit@tutanota.com                 us     role=3   personal
+  [43/46] dreambeyondit@tutanota.com                 us     role=3   personal
+  [46/46] sue.a.darby@gmail.com                      us     role=3   personal
+  [46/46] sue.a.darby@gmail.com                      us     role=3   personal
+new emails this run: 11 -> C:\temp\ghscan\new_emails_20261117_195551.csv
+{
+  "generated_at": "2026-11-18T04:03:05Z",
+  "out_dir": "C:\\temp\\ghscan\\out_us_devs",
+  "candidates_evaluated": 46,
+  "unique_emails": 474,
+  "new_emails": 11,
+  "new_emails_file": "C:\\temp\\ghscan\\new_emails_20261117_195551.csv",
+  "requests": 306,
+  "elapsed_seconds": 434.3,
+  "filters": {
+    "min_role_score": 2,
+    "include_unknown_location": false,
+    "include_noreply": false,
+    "repos_per_user": 2,
+    "commits_per_repo": 3
+  },
+  "status_counts": {
+    "new": 204,
+    "no_email_found": 32,
+    "collected": 10,
+    "skipped_role_score_0": 2,
+    "skipped_role_score_1": 2
+  },
+  "email_type_counts": {
+    "personal": 380,
+    "corporate": 79,
+    "education": 18
+  },
+  "us_match_counts": {
+    "us": 477
+  }
+}
+batch 4 exit=0 +11 emails (489.6s) -> 474/500
+
+=== progress: 474/500 unique emails ===
+batch 5/25: seed=20261602 limit=250 need=26
+C:\Python314\python.exe -u gh_email_scraper_20261114.py run --queries-file queries_expand_500.txt --limit 250 --max-emails 500 --seed 20261602 --out out_us_devs
+batch 5 exit=143 +0 emails (10.4s) -> 474/500
+batch failed; retrying after short pause
+
+=== progress: 474/500 unique emails ===
+batch 1/40: seed=20261214 limit=350 need=26
+C:\Python314\python.exe -u gh_email_scraper_20261114.py run --queries-file queries_expand_500.txt --limit 350 --max-emails 500 --min-score 1 --seed 20261214 --out out_us_devs
+  query 1/42: +300 (total 300) :: location:"United States" "software engineer" type:user
+  query 2/42: +295 (total 595) :: location:"United States" developer type:user
+  query 3/42: +291 (total 886) :: location:"United States" backend type:user
+  query 4/42: +253 (total 1139) :: location:"United States" frontend type:user
+discovered 350 candidate logins
+candidates: 350 | already processed: 110 | pending: 240
+  [1/240] curtvance.dev@hotmail.com                  us     role=6   personal
+  [1/240] curtvance.dev@hotmail.com                  us     role=6   personal
+  [1/240] curtvance.dev@hotmail.com                  us     role=6   personal
+  [1/240] curtvance.dev@hotmail.com                  us     role=6   personal
+  [4/240] nikithak0612@gmail.com                     us     role=7   personal
+  [5/240] sasanktalluri@gmail.com                    us     role=9   personal
+  [5/240] sasanktalluri@gmail.com                    us     role=9   personal
+  [5/240] sasanktalluri@gmail.com                    us     role=9   personal
+  [7/240] gauravpsingh720@gmail.com                  us     role=9   personal
+  [7/240] gauravpsingh720@gmail.com                  us     role=9   personal
+  [13/240] ali.mohammed200@gmail.com                  us     role=4   personal
+  [13/240] ali.mohammed200@gmail.com                  us     role=4   personal
+  [13/240] ali.mohammed200@gmail.com                  us     role=4   personal
+  [16/240] adityavaish846@gmail.com                   us     role=1   personal
+  [16/240] adityavaish846@gmail.com                   us     role=1   personal
+  [16/240] adityavaish846@gmail.com                   us     role=1   personal
+  [16/240] adityavaish846@gmail.com                   us     role=1   personal
+  [20/240] vedmpatel@gmail.com                        us     role=4   personal
+  [20/240] vedmpatel@gmail.com                        us     role=4   personal
+  [20/240] vedmpatel@gmail.com                        us     role=4   personal
+  [21/240] yunhonglu0409@gmail.com                    us     role=4   personal
+  [21/240] yunhonglu0409@gmail.com                    us     role=4   personal
+  [21/240] yunhonglu0409@gmail.com                    us     role=4   personal
+  [21/240] yunhonglu0409@gmail.com                    us     role=4   personal
+  [25/240] jacobrushinski@gmail.com                   us     role=5   personal
+  [25/240] dsrush2@verizon.net                        us     role=5   corporate
+  [25/240] dsrush2@verizon.net                        us     role=5   corporate
+  [25/240] dsrush2@verizon.net                        us     role=5   corporate
+  [26/240] nisha.tamta199@gmail.com                   us     role=5   personal
+  [26/240] nisha.tamta199@gmail.com                   us     role=5   personal
+  [26/240] nisha.tamta199@gmail.com                   us     role=5   personal
+  [27/240] noreply@anthropic.com                      us     role=10  corporate
+  [29/240] chen.yiou1992@gmail.com                    us     role=4   personal
+  [29/240] chen.yiou1992@gmail.com                    us     role=4   personal
+  [30/240] connectwithvkumar@gmail.com                us     role=3   personal
+  [30/240] connectwithvkumar@gmail.com                us     role=3   personal
+  [30/240] connectwithvkumar@gmail.com                us     role=3   personal
+  [32/240] jakyejobs@gmail.com                        us     role=5   personal
+  [33/240] praveenkumart.sde@gmail.com                us     role=10  personal
+  [33/240] thabjulpraveenkumar@gmail.com              us     role=10  personal
+  [34/240] david.suarez.ca@gmail.com                  us     role=5   personal
+  [34/240] david.suarez.ca@gmail.com                  us     role=5   personal
+  [34/240] david.suarez.ca@gmail.com                  us     role=5   personal
+  [35/240] nazalislam97@gmail.com                     us     role=4   personal
+  [35/240] nazalislam97@gmail.com                     us     role=4   personal
+  [37/240] sagoonraj@gmail.com                        us     role=6   personal
+  [37/240] sagoonraj@gmail.com                        us     role=6   personal
+  [37/240] sagoonraj@gmail.com                        us     role=6   personal
+  [37/240] sagoonraj@gmail.com                        us     role=6   personal
+  [39/240] csandoval.eng@gmail.com                    us     role=4   personal
+  [39/240] mariacamilasandoval@hotmail.com            us     role=4   personal
+  [41/240] nader_shbib@hotmail.com                    us     role=4   personal
+  [41/240] nader_shbib@hotmail.com                    us     role=4   personal
+  [42/240] ekatvelaz@gmail.com                        us     role=3   personal
+  [42/240] ekatvelaz@gmail.com                        us     role=3   personal
+  [42/240] ekatvelaz@gmail.com                        us     role=3   personal
+  [42/240] ekatvelaz@gmail.com                        us     role=3   personal
+  [48/240] mantoniou@circlelinkhealth.com             us     role=4   corporate
+  [48/240] mantoniou@circlelinkhealth.com             us     role=4   corporate
+  [48/240] mantoniou@circlelinkhealth.com             us     role=4   corporate
+  [51/240] mlynam@iteamnm.com                         us     role=4   corporate
+  [52/240] daniyal.chaudhry2121@gmail.com             us     role=3   personal
+  [52/240] daniyal.chaudhry2121@gmail.com             us     role=3   personal
+  [52/240] daniyal.chaudhry2121@gmail.com             us     role=3   personal
+  [52/240] daniyal.chaudhry2121@gmail.com             us     role=3   personal
+reached --max-emails 500; stopping
+new emails this run: 26 -> C:\temp\ghscan\new_emails_20261117_200451.csv
+{
+  "generated_at": "2026-11-18T04:09:09Z",
+  "out_dir": "C:\\temp\\ghscan\\out_us_devs",
+  "candidates_evaluated": 56,
+  "unique_emails": 500,
+  "new_emails": 26,
+  "new_emails_file": "C:\\temp\\ghscan\\new_emails_20261117_200451.csv",
+  "requests": 300,
+  "elapsed_seconds": 257.7,
+  "filters": {
+    "min_role_score": 1,
+    "include_unknown_location": false,
+    "include_noreply": false,
+    "repos_per_user": 2,
+    "commits_per_repo": 3
+  },
+  "status_counts": {
+    "new": 294,
+    "collected": 26,
+    "no_email_found": 26,
+    "no_public_repos": 4
+  },
+  "email_type_counts": {
+    "personal": 403,
+    "corporate": 83,
+    "education": 18
+  },
+  "us_match_counts": {
+    "us": 504
+  }
+}
+batch 1 exit=0 +26 emails (346.5s) -> 500/500
+
+=== progress: 500/500 unique emails ===
+reached target 500

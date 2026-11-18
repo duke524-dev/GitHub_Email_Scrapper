@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-11-18T04:09:09Z",
+  "out_dir": "C:\\temp\\ghscan\\out_us_devs",
+  "candidates_evaluated": 56,
+  "unique_emails": 500,
+  "new_emails": 26,
+  "new_emails_file": "C:\\temp\\ghscan\\new_emails_20261117_200451.csv",
+  "requests": 300,
+  "elapsed_seconds": 257.7,
+  "filters": {
+    "min_role_score": 1,
+    "include_unknown_location": false,
+    "include_noreply": false,
+    "repos_per_user": 2,
+    "commits_per_repo": 3
+  },
+  "status_counts": {
+    "new": 294,
+    "collected": 26,
+    "no_email_found": 26,
+    "no_public_repos": 4
+  },
+  "email_type_counts": {
+    "personal": 403,
+    "corporate": 83,
+    "education": 18
+  },
+  "us_match_counts": {
+    "us": 504
+  }
+}

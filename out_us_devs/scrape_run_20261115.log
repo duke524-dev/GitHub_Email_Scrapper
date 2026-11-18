@@ -1,0 +1,114 @@
+  query 1/10: +100 (total 100) :: location:"United States" "software engineer" type:user
+  query 2/10: +99 (total 199) :: location:"United States" backend type:user
+  query 3/10: +96 (total 295) :: location:"United States" devops type:user
+  query 4/10: +99 (total 394) :: location:"United States" "data engineer" type:user
+discovered 100 candidate logins
+candidates: 100 | already processed: 57 | pending: 43
+  [2/43] t3hami@gmail.com                           us     role=7   personal
+  [3/43] karchaw@proton.me                          us     role=4   personal
+  [3/43] karchaw@proton.me                          us     role=4   personal
+  [3/43] karchaw@proton.me                          us     role=4   personal
+  [4/43] volodymyr@lykhonis.com                     us     role=4   corporate
+  [4/43] volodymyr@lykhonis.com                     us     role=4   corporate
+  [4/43] volodymyr@lykhonis.com                     us     role=4   corporate
+  [6/43] jmerz826@gmail.com                         us     role=4   personal
+  [6/43] jmerz826@gmail.com                         us     role=4   personal
+  [6/43] jmerz826@gmail.com                         us     role=4   personal
+  [6/43] jmerz826@gmail.com                         us     role=4   personal
+  [7/43] waldm63@gmail.com                          us     role=7   personal
+  [7/43] waldm63@gmail.com                          us     role=7   personal
+  [7/43] waldm63@gmail.com                          us     role=7   personal
+  [9/43] ashishb@ashishb.net                        us     role=4   corporate
+  [9/43] ashishb@ashishb.net                        us     role=4   corporate
+  [9/43] ashishb@ashishb.net                        us     role=4   corporate
+  [10/43] jubairbokht@gmail.com                      us     role=5   personal
+Traceback (most recent call last):
+  File "C:\temp\ghscan\gh_email_scraper_20261114.py", line 1069, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\temp\ghscan\gh_email_scraper_20261114.py", line 1044, in main
+    harvest(args, cands)
+    ~~~~~~~^^^^^^^^^^^^^
+  File "C:\temp\ghscan\gh_email_scraper_20261114.py", line 874, in harvest
+    store.write_csv()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\temp\ghscan\gh_email_scraper_20261114.py", line 650, in write_csv
+    with self.emails_csv.open("w", encoding="utf-8-sig", newline="") as fh:
+         ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\pathlib\__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'out_us_devs\\emails.csv'
+  query 1/10: +100 (total 100) :: location:"United States" "software engineer" type:user
+  query 2/10: +99 (total 199) :: location:"United States" backend type:user
+  query 3/10: +96 (total 295) :: location:"United States" devops type:user
+  query 4/10: +99 (total 394) :: location:"United States" "data engineer" type:user
+discovered 100 candidate logins
+candidates: 100 | already processed: 68 | pending: 32
+  [3/32] dainlinda@gmail.com                        us     role=4   personal
+  [3/32] dainlinda@gmail.com                        us     role=4   personal
+  [3/32] dainlinda@gmail.com                        us     role=4   personal
+  [4/32] kushalsrirangam8@gmail.com                 us     role=4   personal
+  [7/32] dhanush2897@gmail.com                      us     role=3   personal
+  [9/32] paarveen00@gmail.com                       us     role=4   personal
+  [9/32] paarveen00@gmail.com                       us     role=4   personal
+  [9/32] paarveen00@gmail.com                       us     role=4   personal
+  [10/32] barathganeshkumar2002@gmail.com            us     role=3   personal
+  [10/32] barathganeshkumar2002@gmail.com            us     role=3   personal
+  [10/32] barathganeshkumar2002@gmail.com            us     role=3   personal
+  [12/32] admin@darrylnorris.com                     us     role=4   corporate
+  [13/32] siddharthmehta0906@gmail.com               us     role=3   personal
+  [16/32] jacobceles@gmail.com                       us     role=4   personal
+  [16/32] jacobceles@gmail.com                       us     role=4   personal
+  [16/32] jacobceles@gmail.com                       us     role=4   personal
+  [18/32] chandralama0111@gmail.com                  us     role=2   personal
+  [18/32] iamme24cl@gmail.com                        us     role=2   personal
+  [18/32] iamme24cl@gmail.com                        us     role=2   personal
+  [18/32] iamme24cl@gmail.com                        us     role=2   personal
+  [19/32] arnfranke@yahoo.com                        us     role=5   personal
+  [19/32] arnfranke@yahoo.com                        us     role=5   personal
+  [19/32] arnfranke@yahoo.com                        us     role=5   personal
+  [20/32] fangyd1997@gmail.com                       us     role=4   personal
+  [20/32] fangyd1997@gmail.com                       us     role=4   personal
+  [20/32] fangyd1997@gmail.com                       us     role=4   personal
+  [22/32] ambatiaravindsai@gmail.com                 us     role=4   personal
+  [22/32] ambatiaravindsai@gmail.com                 us     role=4   personal
+  [23/32] jmteachw@gmail.com                         us     role=4   personal
+  [23/32] jmteachw@gmail.com                         us     role=4   personal
+  [23/32] jmteachw@gmail.com                         us     role=4   personal
+  [25/32] wajahatkhanofficials@gmail.com             us     role=4   personal
+  [27/32] shine401020@gmail.com                      us     role=7   personal
+  [27/32] shine401020@gmail.com                      us     role=7   personal
+  [27/32] shine401020@gmail.com                      us     role=7   personal
+  [28/32] himanshubhusari@gmail.com                  us     role=4   personal
+  [31/32] pumpkiny9120@gmail.com                     us     role=4   personal
+{
+  "generated_at": "2026-11-16T00:35:16Z",
+  "out_dir": "C:\\temp\\ghscan\\out_us_devs",
+  "candidates_evaluated": 32,
+  "unique_emails": 168,
+  "requests": 153,
+  "elapsed_seconds": 126.7,
+  "filters": {
+    "min_role_score": 2,
+    "include_unknown_location": false,
+    "include_noreply": false,
+    "repos_per_user": 2,
+    "commits_per_repo": 3
+  },
+  "status_counts": {
+    "new": 68,
+    "collected": 17,
+    "no_email_found": 12,
+    "skipped_role_score_0": 2,
+    "skipped_role_score_1": 1
+  },
+  "email_type_counts": {
+    "personal": 137,
+    "corporate": 23,
+    "education": 8
+  },
+  "us_match_counts": {
+    "us": 168
+  }
+}
