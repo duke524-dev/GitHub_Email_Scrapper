@@ -699,13 +699,17 @@ class Store:
                 writer.writerow({k: rec.get(k, "") for k in cand_fields})
         return len(rows), len(merged)
 
+    EMAIL_FIELDS = ["email", "name", "login", "company", "location",
+                    "us_match", "us_evidence", "role_score", "role_signals",
+                    "email_type", "email_source", "repo", "commit_sha",
+                    "commit_date", "commit_subject", "profile_url",
+                    "collected_at"]
+
     def write_new_emails(self, before_emails: set, stamp: str | None = None) -> Path | None:
-        """Write only emails first seen in this run to new_emails_YYYYMMDD_HHMMSS.csv."""
-        email_fields = ["email", "name", "login", "company", "location",
-                        "us_match", "us_evidence", "role_score", "role_signals",
-                        "email_type", "email_source", "repo", "commit_sha",
-                        "commit_date", "commit_subject", "profile_url",
-                        "collected_at"]
+        """Write emails first seen in this run to outdir/new_emails_YYYYMMDD_HHMMSS.csv.
+
+        The total master list is always refreshed separately via write_csv() -> emails.csv.
+        """
         rank = {"personal": 0, "corporate": 1, "education": 2, "github_noreply": 9}
         best: dict[str, dict] = {}
         for rec in self.records:
@@ -722,10 +726,10 @@ class Store:
         stamp = stamp or datetime.now().strftime("%Y%m%d_%H%M%S")
         path = self.outdir / f"new_emails_{stamp}.csv"
         with path.open("w", encoding="utf-8-sig", newline="") as fh:
-            writer = csv.DictWriter(fh, fieldnames=email_fields, extrasaction="ignore")
+            writer = csv.DictWriter(fh, fieldnames=self.EMAIL_FIELDS, extrasaction="ignore")
             writer.writeheader()
             for rec in rows:
-                writer.writerow({k: rec.get(k, "") for k in email_fields})
+                writer.writerow({k: rec.get(k, "") for k in self.EMAIL_FIELDS})
         return path
 
 
@@ -899,6 +903,9 @@ def harvest(args, candidates: list[dict] | None = None) -> None:
             cand["status"] = f"error:{type(exc).__name__}"
             return cand, []
 
+    def new_in_run() -> int:
+        return len(store.unique_emails() - before_emails)
+
     with ThreadPoolExecutor(max_workers=args.concurrency) as pool:
         futures = [pool.submit(work, c) for c in pending]
         for idx, fut in enumerate(futures, 1):
@@ -917,24 +924,33 @@ def harvest(args, candidates: list[dict] | None = None) -> None:
                 for f in futures:
                     f.cancel()
                 break
+            if getattr(args, "max_new_emails", 0) and new_in_run() >= args.max_new_emails:
+                print(f"reached --max-new-emails {args.max_new_emails}; stopping")
+                stop.set()
+                for f in futures:
+                    f.cancel()
+                break
             if idx % 10 == 0:
                 store.write_csv()
 
+    # 1) refresh total master list
     emails, cands = store.write_csv()
+    # 2) write only this run's newly fetched emails with date+time name
+    run_new = new_in_run()
     new_path = store.write_new_emails(before_emails, stamp=run_stamp)
-    new_count = 0
     if new_path and new_path.exists():
-        with new_path.open("r", encoding="utf-8-sig") as fh:
-            new_count = sum(1 for _ in csv.DictReader(fh))
-        print(f"new emails this run: {new_count} -> {new_path.resolve()}")
+        print(f"total emails: {emails} -> {store.emails_csv.resolve()}")
+        print(f"new emails this run: {run_new} -> {new_path.resolve()}")
     else:
-        print("new emails this run: 0")
+        print(f"total emails: {emails} -> {store.emails_csv.resolve()}")
+        print(f"new emails this run: {run_new}")
     summary = {
         "generated_at": now_iso(),
         "out_dir": str(outdir.resolve()),
         "candidates_evaluated": len([c for c in store.candidates if c.get("status") != "new"]),
         "unique_emails": emails,
-        "new_emails": new_count,
+        "total_emails_file": str(store.emails_csv.resolve()),
+        "new_emails": run_new,
         "new_emails_file": str(new_path.resolve()) if new_path else "",
         "requests": http.count,
         "elapsed_seconds": round(time.time() - started, 1),
@@ -1056,7 +1072,9 @@ def build_parser() -> argparse.ArgumentParser:
     def common(sp):
         sp.add_argument("--out", default="out_us_devs", help="output directory")
         sp.add_argument("--limit", type=int, default=0, help="max candidates processed")
-        sp.add_argument("--max-emails", type=int, default=0, help="stop after N unique emails")
+        sp.add_argument("--max-emails", type=int, default=0, help="stop after N unique emails total")
+        sp.add_argument("--max-new-emails", type=int, default=0,
+                        help="stop after N emails newly found in this run")
         sp.add_argument("--concurrency", type=int, default=3, help="parallel workers (default 3)")
         sp.add_argument("--pace", type=float, default=0.55, help="seconds between HTML requests")
         sp.add_argument("--repos-per-user", type=int, default=2)
